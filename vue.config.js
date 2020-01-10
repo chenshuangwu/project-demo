@@ -1,5 +1,6 @@
 const path = require('path')
 const CompressionPlugin = require("compression-webpack-plugin")
+const UglifyPlugin = require('uglifyjs-webpack-plugin')
 
 function resolve(dir) {
   return path.join(__dirname, './', dir)
